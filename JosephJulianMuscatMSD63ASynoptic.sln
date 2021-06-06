@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JosephJulianMuscatMSD63ASynoptic", "BlankWebApplication\JosephJulianMuscatMSD63ASynoptic.csproj", "{441241B2-A214-4B96-92FD-B7D51E7605C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{441241B2-A214-4B96-92FD-B7D51E7605C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441241B2-A214-4B96-92FD-B7D51E7605C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441241B2-A214-4B96-92FD-B7D51E7605C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441241B2-A214-4B96-92FD-B7D51E7605C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AFC6FAA-3670-4DB4-AE6C-1734BD53D24F}
+	EndGlobalSection
+EndGlobal
