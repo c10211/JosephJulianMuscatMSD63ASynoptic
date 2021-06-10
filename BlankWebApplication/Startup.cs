@@ -16,6 +16,8 @@ using Google.Cloud.SecretManager.V1;
 using Newtonsoft.Json.Linq;
 using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Storage.V1;
+using JosephJulianMuscatMSD63ASynoptic.DataAccess.Interfaces;
+using JosephJulianMuscatMSD63ASynoptic.DataAccess.Repositories;
 
 namespace BlankWebApplication
 {
@@ -32,6 +34,8 @@ namespace BlankWebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("GoogleConsolePostgresConnection")));
+
+            services.AddScoped<IPubSubRepository, PubSubRepository>();
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
